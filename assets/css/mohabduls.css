@@ -1,0 +1,62 @@
+body{
+	font-family: 'Montserrat';
+}
+@font-face{
+	font-family: "Montserrat";
+	src: url('/assets/Fonts/Montserrat-Regular.ttf');
+}
+
+.bg-custom{
+	background-color: #58b4ae;
+}
+.bg-custom-2{
+	background-color: #ffe277;
+}
+
+.color-custom-1{
+	color: #58b4ae;
+}
+.color-custom-2{
+	color: #ffe277;
+}
+
+.custom-img{
+	width: 450px;
+}
+
+.custom-card{
+	height: 280px;
+	border-bottom: 2px solid #ffe277;
+	border-radius: 3px;
+	margin-bottom: 5px;
+}
+
+.github-logos{
+	width: 25px;
+	height: 25px;
+}
+
+.github-logos-2{
+	width: auto;
+	height: 28px;
+}
+
+.linkedin-logos{
+	width: 30px;
+	height: auto;
+}
+
+.custom-card-2{
+	height: 230px;
+	border-radius: 3px;
+}
+
+@media only screen and (max-width: 768px)
+{
+	.custom-img{
+		width: 100%;
+	}
+	.custom-card, .custom-card-2{
+		height: auto;
+	}
+}
